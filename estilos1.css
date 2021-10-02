@@ -1,0 +1,151 @@
+/*
+.container {
+    background-color: blueviolet;
+
+}
+
+.row{
+    border: 20px solid black;
+}*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#footer {
+    background-color: #273b47;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-fluid img {
+    width: 120px;
+}
+
+.img-slider {
+    filter: brightness(0.5);
+}
+
+.bg-dark2 {
+    --bs-bg-opacity: 1;
+    background-color: #1f1f1f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /* border-top: 2px solid transparent; */
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-out;
+    padding: 2px 5px;
+    margin: 0px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    /* border-top: 2px solid #ff3717; */
+    border-bottom: 2px solid #ff3717;
+}
+
+.btn-outline-white {
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.btn-outline-white:hover {
+    color: white;
+    background-color: #1f1f1fb5;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.container {
+    padding: 30px 0px;
+}
+
+#servicios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-p {
+    width: 280px;
+    text-align: center;
+}
+
+.card-p i {
+    padding-bottom: 15px;
+}
+
+.card-p p {
+    line-height: 180%;
+}
+
+.titulo-dinamico {
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    color: rgb(99, 99, 99);
+}
+
+#titulo-servicios .productos {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(99, 99, 99);
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.titulo-dinamico p {
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-right: 0.3em;
+}
+
+.titulo-dinamico b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+}
+
+.titulo-dinamico .dinamico {
+    display: inline-block;
+    color: #000000;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    /*animation*/
+    -webkit-animation: move 4s;
+    animation: move 4s;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    /*animation-delay*/
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: -60px;
+    }
+    40% {
+        top: -120px;
+    }
+}
