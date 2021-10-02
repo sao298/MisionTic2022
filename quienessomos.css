@@ -1,0 +1,226 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+#footer {
+  background-color: #273b47;
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*menu*/
+.container-fluid img {
+  width: 120px;
+}
+
+.img-slider {
+  filter: brightness(0.5);
+}
+
+.bg-dark2 {
+  --bs-bg-opacity: 1;
+  background-color: #1f1f1f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  /* border-top: 2px solid transparent; */
+  border-bottom: 2px solid transparent;
+  transition: 0.5s ease-out;
+  padding: 2px 5px;
+  margin: 0px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  /* border-top: 2px solid #ff3717; */
+  border-bottom: 2px solid #ff3717;
+}
+
+.btn-outline-white {
+  border: 1px solid white;
+  color: white;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.btn-outline-white:hover {
+  color: white;
+  background-color: #1f1f1fb5;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/*fin menu*/
+
+
+
+/*deslizar*/
+.parallax {
+  /* The image used */
+  background-image: url("fondo.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.parallax2 {
+    /* The image used */
+    background-color: rgba(27, 27, 27, 0.178);
+    background-image: url("fondo.jpg");
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+      }
+
+.parallax-curtain{
+      height:40vh;
+      background:rgba(114, 114, 114, 0.5);
+}
+
+.parallax-curtain2{
+  height:auto;
+  background:rgba(114, 114, 114, 0.5);
+}
+
+.image-container {
+      background-image: url("img_nature.jpg"); /* The image used - important! */
+      background-size: cover;
+      position: relative; /* Needed to position the cutout text in the middle of the image */
+      height: 300px; /* Some height */
+  }
+
+.image-container2 {
+      background-image: url("img_nature.jpg"); /* The image used - important! */
+      background-size: cover;
+      position: relative; /* Needed to position the cutout text in the middle of the image */
+      height: auto; /* Some height */
+      
+  }
+
+.text {
+        color: rgb(255, 255, 255);
+        font-size: 80px; /* Responsive font size */
+        font-weight: 600px;
+        margin: auto; /* Center the text container */
+        padding: 10px;
+        width: 80%;
+        text-align: center; /* Center text */
+        position: relative; /* Position text */
+        top: 30%; /* Position text in the middle */        
+      }
+
+
+.text2 {
+        width: 80%;
+        padding: 50px;
+        color: rgb(255, 255, 255);
+        font-size: 28px; /* Responsive font size */
+        font-weight: 600px;
+        text-align: center; /* Center text */
+        position: relative; /* Position text */
+        margin: auto;
+        }
+/*fin eslizar*/
+
+
+/*misiony visión*/
+.caja-destacada{
+  font-size: 16px;
+  padding:15px 30px 5px 30px;
+  border-top:3px solid #212529;
+  background:#f3f1f1;
+  margin: 10px 80px 50px 80px;
+  text-align: justify;
+          }
+       
+.titulo {
+  font-weight: 500; 
+  color: #212529;
+  font-size: 36px;
+  text-align: center;
+  margin: 50px 0px 5px 0px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 0 8px;
+}
+ 
+@media screen and (max-width: 1000px) {
+.column2{
+    width: 100%;
+    display: block;
+  }
+}
+/*fin misiony visión*/
+
+/*objetivos*/
+.container {
+  padding: 0 5px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  font-size: 16px;
+  float: left;
+  width: 25%;
+  margin:50px 0px 60px 0px;
+  margin-bottom: 5px;
+  padding: 0 80px;
+  text-align: justify;
+}
+
+#servicios .container  {
+  width:280px
+}
+
+@media screen and (max-width: 900px) {
+  .column{
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+
+  
