@@ -1,286 +1,222 @@
 body {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+    .column {
+        width: 100%;
+        display: block;
+    }
 }
 
 #footer {
-  background-color: #273b47;
+    background-color: #273b47;
 }
 
 #footer a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
+
 /*menu*/
+
 .container-fluid img {
-  width: 120px;
+    width: 120px;
 }
 
 .img-slider {
-  filter: brightness(0.5);
+    filter: brightness(0.5);
 }
 
 .bg-dark2 {
-  --bs-bg-opacity: 1;
-  background-color: #1f1f1f;
+    --bs-bg-opacity: 1;
+    background-color: #1f1f1f;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  /* border-top: 2px solid transparent; */
-  border-bottom: 2px solid transparent;
-  transition: 0.5s ease-out;
-  padding: 2px 5px;
-  margin: 0px 10px;
+    /* border-top: 2px solid transparent; */
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-out;
+    padding: 2px 5px;
+    margin: 0px 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .show>.nav-link,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
-  /* border-top: 2px solid #ff3717; */
-  border-bottom: 2px solid #ff3717;
+    color: #fff;
+    /* border-top: 2px solid #ff3717; */
+    border-bottom: 2px solid #ff3717;
 }
 
 .btn-outline-white {
-  border: 1px solid white;
-  color: white;
-  transition: 0.5s;
-  margin-bottom: 20px;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 20px;
 }
 
 .btn-outline-white:hover {
-  color: white;
-  background-color: #1f1f1fb5;
+    color: white;
+    background-color: #1f1f1fb5;
 }
 
 .btn:focus {
-  box-shadow: none;
+    box-shadow: none;
 }
+
 
 /*fin menu*/
 
 
-
 /*deslizar*/
+
 .parallax {
-  /* The image used */
-  background-image: url("./imagenes_proyecto/fondo.jpg");
-
-  /* Set a specific height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-
-.parallax2 {
     /* The image used */
-    background-color: rgba(27, 27, 27, 0.178);
-    background-image:  url("./imagenes_proyecto/fondo.jpg");
+    background-image: url("./imagenes_proyecto/fondo.jpg");
     /* Set a specific height */
     height: 100%;
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-      }
-
-.parallax-curtain{
-      height:40vh;
-      background:rgba(114, 114, 114, 0.5);
 }
 
-.parallax-curtain2{
-  height:auto;
-  background:rgba(114, 114, 114, 0.5);
+.parallax2 {
+    /* The image used */
+    background-color: rgba(27, 27, 27, 0.178);
+    background-image: url("./imagenes_proyecto/fondo.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-curtain {
+    height: 40vh;
+    background: rgba(114, 114, 114, 0.5);
+}
+
+.parallax-curtain2 {
+    height: auto;
+    background: rgba(114, 114, 114, 0.5);
 }
 
 .image-container {
-      background-image: url("./fondo.jpg"); /* The image used - important! */
-      background-size: cover;
-      position: relative; /* Needed to position the cutout text in the middle of the image */
-      height: 300px; /* Some height */
-  }
+    background-image: url("./fondo.jpg");
+    /* The image used - important! */
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+    height: 300px;
+    /* Some height */
+}
 
 .image-container2 {
-      background-image: url("./fondo.jpg"); /* The image used - important! */
-      background-size: cover;
-      position: relative; /* Needed to position the cutout text in the middle of the image */
-      height: auto; /* Some height */
-      
-  }
+    background-image: url("./fondo.jpg");
+    /* The image used - important! */
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+    height: auto;
+    /* Some height */
+}
 
 .text {
-        color: rgb(255, 255, 255);
-        font-size: 80px; /* Responsive font size */
-        margin: auto; /* Center the text container */
-        padding: 10px;
-        width: 80%;
-        text-align: center; /* Center text */
-        position: relative; /* Position text */
-        top: 30%; /* Position text in the middle */        
-      }
-
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    /* Responsive font size */
+    margin: auto;
+    /* Center the text container */
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    /* Center text */
+    position: relative;
+    /* Position text */
+    top: 30%;
+    /* Position text in the middle */
+}
 
 .text2 {
-        width: 80%;
-        padding: 50px;
-        color: rgb(255, 255, 255);
-        font-size: 28px; /* Responsive font size */
-        text-align: center; /* Center text */
-        position: relative; /* Position text */
-        margin: auto;
-        }
+    width: 80%;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    /* Responsive font size */
+    text-align: center;
+    /* Center text */
+    position: relative;
+    /* Position text */
+    margin: auto;
+}
+
+
 /*fin eslizar*/
 
 
 /*misiony visión*/
 
 .container2 {
-  padding: 10px 0px;
+    padding: 10px 0px;
 }
 
-.card-p2{
-  width: 700px;
-  text-align: justify;
+.card-p2 {
+    width: 700px;
+    text-align: justify;
 }
 
 .card-p2 p {
-  line-height: 180%;
-  margin:0px 25px 30px 25px;
+    line-height: 180%;
+    margin: 0px 25px 30px 25px;
 }
 
-.caja-destacada{
-  font-size: 16px;
-  padding:15px 30px 5px 30px;
-  border-top:3px solid #212529;
-  background:#f3f1f1;
-  margin: 10px 80px 20px 80px;
-  text-align: justify;
-          }
-       
-.titulo {
-  font-weight: 500; 
-  color: #212529;
-  font-size: 36px;
-  text-align: center;
-  margin: 10px 0px 5px 0px;
+.caja-destacada {
+    font-size: 16px;
+    padding: 15px 30px 5px 30px;
+    border-top: 3px solid #212529;
+    background: #f3f1f1;
+    margin: 10px 80px 20px 80px;
+    text-align: justify;
 }
+
+.titulo {
+    font-weight: 500;
+    color: #212529;
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+}
+
 
 /*fin misiony visión*/
 
+
 /*objetivos*/
+
 .container {
-  padding: 30px 0px;
+    padding: 30px 0px;
 }
 
-.card-p{
-  width: 300px;
-  text-align: justify;
+.card-p {
+    width: 300px;
+    text-align: justify;
 }
 
 .card-p p {
-  line-height: 180%;
-  margin:0px 25px 30px 25px;
+    line-height: 180%;
+    margin: 0px 25px 30px 25px;
 }
 
-#servicios{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  align-content:space-around;
+#servicios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
-
-/*footer*/
-{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-footer {
-  width: 100%;
-  background: #1F1F21;
-  color: white;
-}
-
-.container-footer-all {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.container-body {
-  display: flex;
-  justify-content: space-between;
-}
-
-.colum1 {
-  max-width: 600px;
-}
-
-  .colum1.row img {
-      width: 1400px;
-      height: 900px;
-  }
-
-.colum2 {
-  max-width: 550px;
-  font-size: 22px;
-}
-
-  .colum2 h1 {
-      margin-left: 10px;
-      font-size: 22px;
-  }
-
-  .colum2 p {
-      font-size: 14px;
-      color: #C7C7C7;
-      margin-top: 20px;
-  }
-
-.colum3 {
-  max-width: 500px;
-}
-
-  .colum3 h1 {
-      margin-left: 10px;
-      font-size: 22px;
-  }
-
-.row {
-  display: flex;
-}
-
-  .row img {
-      margin-top: 20px;
-      width: 95px;
-      height: 65px;
-  }
-
-  .row label {
-      margin-top: 40px;
-      margin-left: 20px;
-      max-width: 180px;
-  }
-
-
-
-
-  

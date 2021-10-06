@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <title>Página de la empresa</title>
+    <title>Productos</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="estilos1.css">
@@ -28,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="quienesosmos.html">¿Quiénes Somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
                     </li>
                 </ul>
             </div>
@@ -44,55 +44,46 @@
     <!--Slider-->
 
     <main id="main">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="container">
+            <div class="row text-center">
+                <div>
+                    <h1>Nuestros productos</h1>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 26rem" ;>
+                        <img id="imagen_producto_1" src="./imagenes_proyecto/product_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cocinas integrales</h5>
+                            <p class="card-text">Conoce las últimas tendencias</p>
+                            <button type="button" class="btn btn-primary">Ver más</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 26rem;">
+                        <img id="imagen_producto_2" src="./imagenes_proyecto/product_2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Closets</h5>
+                            <p class="card-text">Selecciona un estilo único</p>
+                            <button type="button" class="btn btn-primary">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 26rem;">
+                        <img id="imagen_producto_3" src="./imagenes_proyecto/product_3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dormitorios</h5>
+                            <p class="card-text">Personaliza tu lugar de descanso</p>
+                            <button type="button" class="btn btn-primary">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./imagenes_proyecto/slide2.png" class="d-block w-100 img-slider" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Creamos tu cocina soñada</h1>
-                        <a href="productos.html">
-                            <button class="btn btn-outline-white">
-                            Ver más
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes_proyecto/slide3.png" class="d-block w-100 img-slider" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Salas de estar a tu medida</h1>
-                        <a href="productos.html">
-                            <button class="btn btn-outline-white">
-                            Ver más
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes_proyecto/slide4.png" class="d-block w-100 img-slider" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Personalizamos tus espacios de la mejor manera</h1>
-                        <a href="productos.html">
-                            <button class="btn btn-outline-white">
-                            Ver más
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </main>
 
