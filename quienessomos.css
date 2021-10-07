@@ -108,7 +108,7 @@ body {
 }
 
 .image-container {
-    background-image: url("./fondo.jpg");
+    background-image: url("./imagenes_proyecto/fondo.jpg");
     /* The image used - important! */
     background-size: cover;
     position: relative;
@@ -118,7 +118,7 @@ body {
 }
 
 .image-container2 {
-    background-image: url("./fondo.jpg");
+    background-image: url("./imagenes_proyecto/fondo.jpg");
     /* The image used - important! */
     background-size: cover;
     position: relative;
