@@ -108,7 +108,6 @@ body {
 }
 
 .image-container {
-    background-image: url("./imagenes_proyecto/fondo.jpg");
     /* The image used - important! */
     background-size: cover;
     position: relative;
@@ -118,7 +117,6 @@ body {
 }
 
 .image-container2 {
-    background-image: url("./imagenes_proyecto/fondo.jpg");
     /* The image used - important! */
     background-size: cover;
     position: relative;
@@ -178,10 +176,10 @@ body {
 
 .caja-destacada {
     font-size: 16px;
-    padding: 15px 30px 5px 30px;
+    padding: 15px 20px 5px 20px;
     border-top: 3px solid #212529;
     background: #f3f1f1;
-    margin: 10px 80px 20px 80px;
+    margin: 10px 40px 20px 40px;
     text-align: justify;
 }
 
@@ -204,7 +202,7 @@ body {
 }
 
 .card-p {
-    width: 300px;
+    width: 320px;
     text-align: justify;
 }
 
